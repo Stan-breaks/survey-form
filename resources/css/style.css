@@ -16,10 +16,21 @@ body {
     background-position: center;
     background-size: cover;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 header {
     text-align: center;
     padding-top: 2.5rem;
     line-height: 2rem;
-    font-family: 'Roboto', sans-serif;
+}
+main {
+    margin: 0px auto;
+    width: 60%;
+    background-color: rgba(58, 50, 113, 0.8);
+}
+form {
+    padding: 2.5rem;
+}
+.full-input-width {
+    width: 100%;
 }
