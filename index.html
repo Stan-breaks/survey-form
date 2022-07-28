@@ -18,77 +18,77 @@
       <form>
             <label for="name">Name</label><br>
             <input class="full-input-width" type="text" id="name" placeholder="Enter your name"><br><br>
-            <label for="email"></label><br>
+            <label for="email">Email</label><br>
             <input class="full-input-width" type="email" id="email" placeholder="Enter your Email"><br><br>
-            <label for="number">Age(optional)</label><br>
+            <label for="number">Age (optional)</label><br>
             <input class="full-input-width" type="number" id="number"placeholder="Age" max="80" min="12"><br><br>
             <label for="role">Which option best describes your current role?</label><br>
           <select class="full-input-width" placeholder="select current role">
-              <optgroup label="select current role">
+              <option disabled selected value>select current role</option>
               <option value="student">student</option>
               <option value="full time job">full time job</option>
               <option value="full time learner">full time learner</option>
               <option value="prefer not to say">prefer not to say</option>
               <option value="other">other</option>
               </optgroup>
-          </select>  
+          </select><br><br>  
         <label for="recomemmend">Would you recommend freeCodeCamp to a friend?</label><br>
-        <input type="radio" id="recomemmend" name="recomemmend">
-        <label for="recommend">Definitely</label>
+        <input class="anomaly" type="radio" id="recomemmend" name="recomemmend">
+        <label class="anomaly" for="recommend">Definitely</label>
         <br>
-        <input type="radio" id="recomemmend" value="Maybe">
-        <label for="recommend">Maybe</label>
+        <input class="anomaly" type="radio" id="recomemmend" value="Maybe">
+        <label class="anomaly" for="recommend">Maybe</label>
         <br>
-        <input type="radio" id="recomemmend" value="Not sure">
-        <label for="recommend">Not sure</label>
+        <input class="anomaly" type="radio" id="recomemmend" value="Not sure">
+        <label class="anomaly" for="recommend">Not sure</label>
         <br><br>
         <label for="feature">What is your favorite feature of freeCodeCamp?</label><br>
-        <select id="feature" placeholder="Select an option">
-          <optgroup label="select an option">
+        <select class="full-input-width" id="feature" placeholder="Select an option">
+          <option disabled selected value>select an option</option>
           <option value="challenges">challenges</option>
           <option value="projects">projects</option>
           <option value="community">community</option>
           <option value="Open source">Open source</option>
           </optgroup>
         </select><br><br>
-        <label for="improved">What would you like to see improved? (Check all that apply)</label>
-        <input type="checkbox" id="improved" >
-        <label for="improved">Front-end projects</label>
+        <label for="improved">What would you like to see improved? (Check all that apply)</label><br>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved">Front-end projects</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Back-end projeects</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Back-end projeects</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Data visualisation</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Data visualisation</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Challenges</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Challenges</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Open source Community</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Open source Community</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Gitter help rooms</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Gitter help rooms</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved"> Videos</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved"> Videos</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved">City Meetups</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved">City Meetups</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved">Wiki</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved">Wiki</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved">Forum</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved">Forum</label>
         <br>
-        <input type="checkbox" id="improved" >
-        <label for="improved">Additional Courses</label>
+        <input class="anomaly" type="checkbox" id="improved" >
+        <label class="anomaly" for="improved">Additional Courses</label>
         <br><br>
         
         <label for="comments">Any comments or suggestions?</label><br>
-        <textarea id="comments"  rows="4" cols="50"></textarea><br><br>
-        <button type="button" id="btn">Submit</button>
+        <textarea class="full-input-width" id="comments"  rows="4" cols="50" placeholder="Enter your comments here..."></textarea><br><br>
+        <input class="full-input-width" type="submit" id="btn" value="Submit">
       </form>
     </main>
   </body>
