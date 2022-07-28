@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    /* background: url("/media/background-image.jpg"); */
+    background: url("/media/background-image.jpg");
     background-repeat: no-repeat;
     background-position: center; 
     position: relative;
